@@ -1,0 +1,153 @@
+.topbar{
+    background-color: red;
+    color: white;
+    display:flex;
+    height: 30px;
+    align-items: center;
+}
+
+.hightlight {
+    width: 70%;
+    margin-left: 30px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.date {
+    width:30%;
+    text-align: right;
+    margin-right: 30px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.logoCase {
+    background-color: black;
+    align-items: center;
+}
+
+.logo{
+    text-align: center;
+    padding: 25px;
+}
+
+.logoImage {
+    width: 700px;
+}
+
+.menu  {
+    display:flex;
+    height: 50px;
+    background-color: red;
+    justify-content: center;
+}
+
+.itemsMenu{
+    width: 70%;
+    display:flex;
+    justify-content:space-between;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Exo 2', sans-serif;
+    color:white;
+}
+
+.itemsMenu li{
+    list-style:none;
+    text-transform:uppercase;
+    cursor: pointer;
+}
+
+.productContainer {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px;
+}
+
+.productCard {
+    width: 30%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin: 10px;
+    margin-bottom: 45px;
+    border: 2px solid black;
+    border-radius: 13px;
+}
+
+.imageProduct {
+    width: 60%;
+    height: 200px;
+    padding:10px;
+}
+
+.productPrice{
+    font-size: 1.5em;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.productTitle{
+    font-size: 1.5em;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.productDescription {
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Exo 2', sans-serif;
+    width:70%;
+}
+
+.productMain {
+    display:flex;
+    padding:50px;
+}
+
+.photoCaseMain {
+    display:flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+.titleMainProduct {
+    font-size: 2em;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.photoProductMain {
+    width: 85%;
+}
+
+.galleryProduct{
+    display:flex;
+    flex-direction:row;
+    max-width:600px;
+    height: 200px;
+    margin-top: 30px;
+}
+
+.galleryProduct img{
+    width: 25%;
+    border: solid 2px black;
+    padding:20px;
+    margin: 2px;
+}
+
+.dataProductMain {
+    width: 50%;
+}
+
+.descriptionProductMain{
+    font-size: 1.5em;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Exo 2', sans-serif;
+    margin-top: 100px;
+}
+
+.priceProductMain {
+    font-size: 2em;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Exo 2', sans-serif;
+}
